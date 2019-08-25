@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.2-SNAPSHOT</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -23,7 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.216.72.34:9000</sonar.host.url>
+		<sonar.host.url>http://18.191.235.186:9000</sonar.host.url>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -90,12 +90,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.216.91.180:8081/repository/newjob-rel/</url>
+	      <url>http://52.14.48.103:8081/repository/test-release//</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.216.91.180:8081/repository/newjob-snap/</url>
+	      <url>http://52.14.48.103:8081/repository/test-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
