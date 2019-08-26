@@ -94,7 +94,7 @@
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>jayasimhareddySnapshot Nexus Repository </name>
+	      <name>gopireddySnapshot Nexus Repository </name>
 	      <url>http://52.14.48.103:8081/repository/test-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
