@@ -86,7 +86,8 @@
 
 	</dependencies>
 	
-	<distributionManagement>
+	<!-- This is for Nexus   
+          <distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>jayasimhareddyReleases Nexus Repository</name>
@@ -97,7 +98,20 @@
 	      <name>gopireddySnapshot Nexus Repository </name>
 	      <url>http://52.14.48.103:8081/repository/test-snapshot/</url>
 	    </snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
+<!-- This is for Jfrog-->	
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-34-156.ap-south-1.compute.internal-releases</name>
+        <url>http://52.66.213.33:8081/artifactory/maven-webapp-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-34-156.ap-south-1.compute.internal-snapshots</name>
+        <url>http://52.66.213.33:8081/artifactory/maven-webapp-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
