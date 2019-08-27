@@ -102,12 +102,12 @@
 <!-- This is for Jfrog-->	
 <distributionManagement>
     <repository>
-        <id>central</id>
+        <id>jfrog</id>
         <name>ip-172-31-34-156.ap-south-1.compute.internal-releases</name>
         <url>http://52.66.213.33:8081/artifactory/maven-webapp-release</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>jfrog</id>
         <name>ip-172-31-34-156.ap-south-1.compute.internal-snapshots</name>
         <url>http://52.66.213.33:8081/artifactory/maven-webapp-snapshot</url>
     </snapshotRepository>
