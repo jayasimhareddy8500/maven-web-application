@@ -1,0 +1,17 @@
+ - hosts: webservers
+   become: true
+   gather_facts: yes
+
+   tasks:
+
+    - name: stop previous version docker
+      shell: docker container stop hclcontainer
+
+    - name: remove docker container
+      shell: docker container rm hclcontainer
+
+    - name: remove docker image
+      shell: docker image rm -f jayachandraredd/hclimage
+
+    - name: create docker container
+      shell: docker run -d --name hclcontainer -p 8090:8080 jayachandraredd/hclimage
