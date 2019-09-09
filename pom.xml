@@ -23,7 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.191.235.186:9000</sonar.host.url>
+		<sonar.host.url>http://18.216.69.9:9000</sonar.host.url>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -104,12 +104,12 @@
     <repository>
         <id>jfrog</id>
         <name>ip-172-31-34-156.ap-south-1.compute.internal-releases</name>
-        <url>http://52.66.213.33:8081/artifactory/maven-webapp-release</url>
+        <url>http://3.14.135.138:8081/repository/test-release/</url>
     </repository>
     <snapshotRepository>
         <id>jfrog</id>
         <name>ip-172-31-34-156.ap-south-1.compute.internal-snapshots</name>
-        <url>http://52.66.213.33:8081/artifactory/maven-webapp-snapshot</url>
+        <url>http://3.14.135.138:8081/repository/test-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 	
