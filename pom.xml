@@ -102,12 +102,12 @@
 <!-- This is for Jfrog-->	
 <distributionManagement>
     <repository>
-        <id>jfrog</id>
+        <id>nexus</id>
         <name>ip-172-31-34-156.ap-south-1.compute.internal-releases</name>
         <url>http://3.14.135.138:8081/repository/test-release/</url>
     </repository>
     <snapshotRepository>
-        <id>jfrog</id>
+        <id>nexus</id>
         <name>ip-172-31-34-156.ap-south-1.compute.internal-snapshots</name>
         <url>http://3.14.135.138:8081/repository/test-snapshot/</url>
     </snapshotRepository>
