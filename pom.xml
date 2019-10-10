@@ -104,12 +104,12 @@
     <repository>
 	      <id>nexus</id>
 	      <name>jayasimhareddyReleases Nexus Repository</name>
-	      <url>http://3.14.135.138:8081/repository/test-release/</url>
+	      <url>http://18.189.186.218:8081/repository/test-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>gopireddySnapshot Nexus Repository </name>
-	      <url>http://3.14.135.138:8081/repository/test-snapshot/</url>
+	      <url>http://18.189.186.218:8081/repository/test-snapshot/</url>
 	    </snapshotRepository>
 </distributionManagement>
 	
