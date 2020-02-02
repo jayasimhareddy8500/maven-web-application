@@ -101,16 +101,14 @@
 	</distributionManagement> -->
 <!-- This is for Jfrog-->	
 <distributionManagement>
-    <repository>
-	      <id>nexus</id>
-	      <name>jayasimhareddyReleases Nexus Repository</name>
-	      <url>http://18.189.186.218:8081/repository/test-release/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>gopireddySnapshot Nexus Repository </name>
-	      <url>http://18.189.186.218:8081/repository/test-snapshot/</url>
-	    </snapshotRepository>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://35.154.224.132:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+<repository>
+    <id>nexus</id>
+    <url>http://35.154.224.132:8081/nexus/content/repositories/releases</url>
+  </repository>
 </distributionManagement>
 	
 	<build>
